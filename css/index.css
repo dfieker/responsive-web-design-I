@@ -550,13 +550,28 @@ footer {
 @media (max-width: 800px) {
   .top-content-services {
     flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .top-content-services nav a{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 1.65%;
   }
 
   .top-content-services .logo {
-    width: 30%;
-    margin-left: 0;
+    width: 85%;
+    margin-left: 15%;
     margin-right: 0;
-    border: 2px solid red;
+    margin-bottom: 5%;
+  }
+
+  .top-text h2 {
+    text-align: center;
+  }
+
+  .bottom-services {
+    flex-direction: column-reverse;
   }
 }
 
